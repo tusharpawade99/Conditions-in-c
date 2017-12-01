@@ -6,8 +6,9 @@ options depending on the input you give to it.
 
 1) If Statement
 Syntax :
-   if(x > y) 
-   { 
+
+   if(x > y)
+   {
    printf("x is greater than y");
    }
 	 
@@ -16,8 +17,10 @@ Example:
 
   #include<stdio.h>
   #include<conio.h>
+  
   void main()
   {
+ 
     int x=5;
     if(x>0)
     {
@@ -29,11 +32,12 @@ Example:
 2)If Else Statement
 
 Syntax :
+
        if(x > y) 
-   { 
-   printf("x is greater than y");
-   }else
-   {
+       {
+    printf("x is greater than y");
+	}else
+	{
     printf("y is greater than x");
     }
 		
@@ -42,14 +46,17 @@ Syntax :
  
   #include<stdio.h>
   #include<conio.h>
+
   void main()
   {
+  
     int x=5;
     if(x>10)
     {
         printf("x is greater than 10");
     }else
    {
+   
     printf("x is smaller than 10");
     }
   }
@@ -58,6 +65,7 @@ Syntax :
   
   3)Else If Statement
   Syntax:
+  
       if (condition1) 
       {
          //These statements would execute if the condition1 is true
