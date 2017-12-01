@@ -1,5 +1,7 @@
 # Conditions-in-c
-Condtions allow a program to think for itself. Many times there will be moments when you want your program to decide from different options depending on the input you give to it.
+Condtions allow a program to think for itself. 
+Many times there will be moments when you want your program to decide from different 
+options depending on the input you give to it.
 
 
 1) If Statement
@@ -8,6 +10,7 @@ Syntax :
    { 
    printf("x is greater than y");
    }
+	 
    
 Example:
   #include<stdio.h>
@@ -20,8 +23,10 @@ Example:
         printf("%d",x);
     }
   }
+	
   
 2)If Else Statement
+
 Syntax :
        if(x > y) 
    { 
@@ -30,6 +35,7 @@ Syntax :
    {
     printf("y is greater than x");
     }
+		
     
  Example:
   #include<stdio.h>
@@ -45,6 +51,7 @@ Syntax :
     printf("x is smaller than 10");
     }
   }
+	
   
   
   3)Else If Statement
@@ -61,6 +68,7 @@ Syntax :
       {
          //These statements would execute if the condition3 is true
       }
+			
     Example:
                #include <stdio.h>
               int main()
@@ -91,6 +99,7 @@ Syntax :
               }
               
    
+	 
 4) Conditional Operators
 
    
@@ -107,3 +116,4 @@ Example :
              printf("y value is %d", y);
           }
 .
+
