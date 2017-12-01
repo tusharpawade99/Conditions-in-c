@@ -13,6 +13,7 @@ Syntax :
 	 
    
 Example:
+
   #include<stdio.h>
   #include<conio.h>
   void main()
@@ -38,6 +39,7 @@ Syntax :
 		
     
  Example:
+ 
   #include<stdio.h>
   #include<conio.h>
   void main()
